@@ -1,9 +1,17 @@
+config:
+  value: "i am from default"   # Define your custom property here
+
 spring:
   data:
     mongodb:
       uri: "mongodb://localhost:27017/test"
   application:
     name: quiz
+  config:
+    import: configserver:http://localhost:9094
+  cloud:
+    config:
+      profile: default
 
 server:
   port: 9092
@@ -13,15 +21,6 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka/
-
-
-
-
-
-
-
-
-
 
 logging:
   level:

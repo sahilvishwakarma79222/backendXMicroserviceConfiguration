@@ -4,11 +4,6 @@ spring:
       uri: "mongodb://localhost:27017/test"
   application:
     name: quiz
-  config:
-    import: configserver:http://localhost:9094
-  cloud:
-    config:
-      profile: default
 
 server:
   port: 9092

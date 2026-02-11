@@ -1,6 +1,3 @@
-config:
-  value: "i am from default"   # Define your custom property here
-
 spring:
   data:
     mongodb:

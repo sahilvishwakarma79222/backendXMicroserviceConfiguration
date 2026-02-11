@@ -1,3 +1,5 @@
+config:
+  value: "i am in qa"
 spring:
   data:
     mongodb:

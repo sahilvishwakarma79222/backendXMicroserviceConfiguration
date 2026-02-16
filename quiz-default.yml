@@ -19,3 +19,8 @@ eureka:
 logging:
   level:
     org.springframework.data.mongodb: TRACE
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

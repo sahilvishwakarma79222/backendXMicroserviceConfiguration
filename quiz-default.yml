@@ -1,5 +1,5 @@
 config:
-  value: "i am in default"
+  value: "i am in default actuator refresh"
 spring:
   data:
     mongodb:

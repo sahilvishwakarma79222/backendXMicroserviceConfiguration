@@ -1,5 +1,5 @@
 config:
-  value: "i am in default actuator refresh again"
+  value: "i am in default actuator refresh again , from rabbit mq"
 spring:
   data:
     mongodb:
